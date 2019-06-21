@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if !IE]>--> <link rel="stylesheet" type="text/css" href="css1.css" /> <!--<![endif]-->
+<!--[if IE]> <link href="ie.css" rel="stylesheet" type="text/css"> <![endif]-->
+<style type="text/css">
+
+#Website{
+height:1000px;
+}
+#Content{
+height:770px;
+}
+#DYK{
+height:770px;
+}
+
+#RightDecor{
+height:900px;
+}
+
+#NavBar{
+height:900px;
+}
+
+#Contact{
+background-color:#000000;
+color:#FFFFFF;
+}
+
+</style>
+
+
+<title>Dieting 4 U - Contact Us</title>
+
+</head>
+<body>
+<div id="Website">
+
+<div id="NavBar">
+<a href="index.html"><span id="Home">Home</span></a>
+<a href="about.html"><span id="About">About</span></a>
+<a href="healthy_eating.html"><span id="Healthy">Healthy Eating</span></a>
+<a href="exercise.html"><span id="Exercise">Exercise</span></a>
+<a href="contact_us.html"><span id="Contact">Contact Us</span></a>
+</div>
+
+<div id="Title">
+<div id="TitleText">Contact Us</div>
+<div id="IEComp">IE Compatible Version</div>
+<img src="images/logo.png" alt="Dieting 4 U Logo" />
+
+</div>
+
+<div id="Content">
+<script type="text/Javascript">
+function validateForm()
+{
+	var fn=document.forms["form1"]["forename"].value;
+	var sn=document.forms["form1"]["surname"].value;
+	var add=document.forms["form1"]["address"].value;
+	var pc=document.forms["form1"]["PC"].value;
+	var e=document.forms["form1"]["email"].value;
+	var e2=document.forms["form1"]["emailconfirm"].value;
+	
+	if(fn==null||fn=="")
+	{
+		alert("You have not entered your first name.");
+		return false;
+	}
+	
+	if(sn==null||sn=="")
+	{
+		alert("You have not entered your surname.");
+		return false;
+	}
+	
+	if(add==null||add=="")
+	{
+		alert("You have not entered your address.");
+		return false;
+	}
+	
+	if(pc==null||pc=="")
+	{
+		alert("You have not entered a post-code.");
+		return false;
+	}
+	
+	if(e==e2)
+	{
+		if(e==null||e=="")
+		{
+		alert("You have not entered an e-mail address.");
+		return false;
+		}
+	}
+	else
+	{
+		alert("Your e-mail addresses do not match.");
+		return false;
+	}
+}
+</script>
+Please fill out the form below to contact us with any queries about the site, or even suggestions for how we can improve it. Your feedback is appreciated.<br/><br/>(e-mail client required)<br/>Required fields are marked with a <a class="Red">*</a>
+
+<br/><br/>
+
+<form name="form1" id="form1" onsubmit="return validateForm()" action="mailto:dingram@meridal.com">
+Title:- &nbsp; <select name="title">
+<option value="Mr">Mr</option>
+<option value="Mrs">Mrs</option>
+<option value="Dr">Dr</option>
+<option value="Miss">Miss</option>
+<option value="Ms">Ms</option>
+</select>
+&nbsp; Gender:- <input name="gender" type="radio" value="Male" checked /> Male
+<input name="gender" type="radio" value="Female" /> Female
+<br/><br/>
+Forename:- &nbsp;<input type="text" name="forename" id="forename" /><a class="Red">*</a>
+&nbsp;Surname:- &nbsp;<input type="text" name="surname" id="surname" /><a class="Red">*</a> <br/><br/>
+Date of Birth (DD/MM/YY) :- &nbsp;<input type="text" name="day" id="day" size="2" maxlength="2" />
+&nbsp;<input type="text" name="month" id="month" size="2" maxlength="2" />
+&nbsp;<input type="text" name="year" id="year" size="2" maxlength="2" />
+&nbsp;Age:- &nbsp;<input type="text" name="age" id="age" size="2" maxlength="3" /><br/><br/>
+Address:- <input type="text" name="address" id="address" size="25" /><a class="Red">*</a><br/><br/>
+City:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="city" id="city" size="25" /><br/><br/>
+Post-Code:- &nbsp;&nbsp;<input type="text" name="PC" id="PC" size="10" maxlength="8" /><a class="Red">*</a><br/><br/>
+Contact Number:- <input type="text" name="phone" id="phone" maxlength="14" /><br/><br/>
+E-mail Address:- <input type="text" name="email" id="email" /><a class="Red">*</a><br/><br/>
+E-mail Confirm:- <input type="text" name="emailconfirm" id="emailconfirm" /><a class="Red">*</a><br/><br/>
+Additional Comments:-<br/>
+<textarea name="comments" id="comments" cols="50" rows="5">
+</textarea><br/><br/>
+<p class="center">
+<input type="submit" name="submit" id="submit" value="Submit" />
+<input type="reset" name="reset" id="reset" value="Clear" /></p>
+</form>
+
+</div>
+
+
+
+<div id="DYK">
+<p class="centund">Getting rid of bad habits</p><br/>
+
+<p>If you have a busy life, it's really tempting to get into the snacking habit. Grabbing a bag of crisps or a chocolate bar on the way home may give you a short-term energy boost, but these snacks are usually the ones that are filled with bad types of fat and sugar.</p><br/>
+
+<p>It's best to try and stop snacking in between meals altogether. If you are finding it hard, try to carry a couple of pieces of fruit or a bag of nuts around with you. These can give you the same energy boost and contain fats and sugars that are better for you.</p>
+
+<p class="center"><img src="images/pancakes.jpg" alt="Pancakes." /></p>
+
+<p>Another bad habit is missing breakfast. You might prefer to spend another 15 minutes in bed, skipping breakfast means you're likely to be reaching for the chocolate by mid-morning.</p><br/>
+
+
+<p>Having a healthy breakfast also boosts your vitamin and mineral intake. A bowl of cereal and a glass of fruit juice in the morning is more than enough to see you through until lunchtime.</p>
+</div>
+
+<div id="RightDecor"></div>
+
+<div id="Legal">
+
+<p class="center">&copy; Daniel Ingram, 2011 ~ <a href="site.html">Site Map</a></p>
+
+All content within  is provided for general information only, and should not be treated as a substitute for the medical advice of your own doctor or any other health care professional. We are not responsible or liable for any diagnosis made by a user based on the content of this website. We are not liable for the contents of any external internet sites listed, nor does it endorse any commercial product or service mentioned or advised on any of the sites. See our Links Policy for more information. Always consult your own GP if you're in any way concerned about your health.
+</div>
+
+</div>
+</body>
+
+</html>
